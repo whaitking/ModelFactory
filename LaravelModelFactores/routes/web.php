@@ -18,5 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/create-10-users', 'UserController@createTestUsers');
-
